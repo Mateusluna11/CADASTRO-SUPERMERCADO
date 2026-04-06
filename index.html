@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Supermercado - Fluxo de Compra</title>
+</head>
+<body>
+
+    <main>
+        <h1>Sistema de Supermercado</h1>
+        
+        <section>
+            <input type="text" id="inputProduto" placeholder="Produto">
+            <input type="number" id="inputPreco" placeholder="Preço R$">
+            <button id="btnCadastrar">Adicionar à Lista</button>
+        </section>
+
+        <hr>
+
+        <section>
+            <h2>🛒 Produtos Listados 
+                <button id="btnToggleLista">Esconder/Mostrar</button>
+            </h2>
+            <ul id="listaProdutos"></ul>
+        </section>
+
+        <hr>
+
+        <section>
+            <h2>✅ Itens Comprados 
+                <button id="btnToggleComprados">Esconder/Mostrar</button>
+            </h2>
+            <ul id="listaComprados"></ul>
+            <h3 id="totalArea">Total Pago: R$ <span id="valorTotal">0.00</span></h3>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
